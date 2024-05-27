@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "keepFocus",
+    "description": "Mantenha o foco nos estudos, trabalho e outras tarefas que exigem atenção com este bloqueador de sites.",
+    "version": "1.0",
+    "permissions": [
+        "tabs",
+        "storage",
+        "background",
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "index.html"
+    },
+    "background": {
+        "scripts": [
+            "index.js"
+        ],
+        "persistent": false
+    }
+}
